@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class SolarSystem extends Component {
   render() {
     return (
-      <div data-testid="solar-system"></div>
+      <div data-testid="solar-system" />
     );
   }
 }
