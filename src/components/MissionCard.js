@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class MissionCard extends Component {
   render() {
@@ -26,4 +26,11 @@ class MissionCard extends Component {
   }
 }
 
-export default MissionCard
+MissionCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  country: PropTypes.string.isRequired,
+  destination: PropTypes.string.isRequired,
+};
+
+export default MissionCard;
