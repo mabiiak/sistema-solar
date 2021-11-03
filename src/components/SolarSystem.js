@@ -14,9 +14,7 @@ class SolarSystem extends Component {
           planetName={
             planets.map((planet) => planet.name)
           }
-          planetImage={
-            planets.map((planet) => planet.image)
-          }
+          planetImage={ planets }
         />
       </>
     );

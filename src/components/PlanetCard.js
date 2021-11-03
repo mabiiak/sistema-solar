@@ -12,9 +12,15 @@ class PlanetaCard extends Component {
     return (
       <div data-testid="planet-card">
         <p data-testid="planet-name">
-          {planetName}
+          { planetName }
         </p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+
+        { planetImage.map((planet) => (
+          <img
+            key={ planet.name }
+            src={ planet.image }
+            alt={ `Planeta ${planetName}` }
+          />))}
       </div>
     );
   }
