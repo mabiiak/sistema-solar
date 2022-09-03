@@ -3,13 +3,15 @@
 body {
   background-image: url("images/background.jpg");
   background-repeat: no-repeat;
-  /* background-size: initial;s */
-  /* background-size: cover; */
 }
 
 * {
   color: white;
   font-family: 'Comfortaa', cursive;
   margin: 0;
-  /* overflow-x: hidden; */
+}
+
+.title {
+  text-align: center;
+  margin: 1%;
 }
