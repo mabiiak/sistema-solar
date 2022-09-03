@@ -1,7 +1,0 @@
-#system {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90vw;
-  justify-content: space-around;
-  margin: 2vh 5vw;
-}
