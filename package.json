@@ -1,5 +1,6 @@
 {
-  "name": "solar-system",
+  "homepage": "https://mabiiak.github.io/sistema-solar/",
+  "name": "sistema-solar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +12,6 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://mabiiak.github.io/sistema-solar/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
